@@ -1,3 +1,18 @@
+# Overview of the project
+The project is a demo application created with react and material ui. It simulates a live football world cup match for the following countries:
+Mexico - Canada
+Spain - Brazil
+Germany - France
+Uruguay - Italy
+Argentina - Australia
+
+Each game starts with 0-0 in the scoreboard.
+Once the game finishes, the leaderboard is updated with the final score in the game summary.
+Next game is started after 15 seconds interval.
+A loader is presented until the next game starts.
+The games are simualted automatically.
+The summary / leaderboard is updated in order of the highest total score having the latest entry of the highest total score on top.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
